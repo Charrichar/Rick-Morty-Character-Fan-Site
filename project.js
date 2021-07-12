@@ -62,6 +62,7 @@ const $originP = $('<p>').text(`Origin: ${item.origin.name}`).appendTo($('#modal
 const $speciesP = $('<p>').text(`Species: ${item.species}`).appendTo($('#modal-content')).addClass('dash-border')
 // const $lineSpace3 = $('<p>').text('__________________________').appendTo($('#modal-content'))
 const $statusP = $('<p>').text(`Status: ${item.status}`).appendTo($('#modal-content')).addClass('dash-border')
+const $episodeP = $('<p>').text(`Episode: ${item.episode}`).appendTo($('#modal-content')).addClass('dash-border').attr('id','episodes')
 
 
   // console.log(dataItem.name);

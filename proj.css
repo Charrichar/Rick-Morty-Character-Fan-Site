@@ -98,3 +98,7 @@ width: 60%;
 .dash-border{
   border-top: 2px solid white;
 }
+#episodes{
+  word-wrap: break-word;
+  width: 100%;
+}
