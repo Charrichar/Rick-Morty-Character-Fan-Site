@@ -56,7 +56,7 @@ openModal()
 })
 const populateModal = (item) => {
 const $nameP = $('<p>').text(`Name: ${item.name}`).appendTo($('#modal-content'))
-// const $lineSpace = $('<p>').text('__________________________').appendTo($('#modal-content'))
+// const $lineSpace = $('<p>').text('__________________________').appendTo($('#modal-content')
 const $originP = $('<p>').text(`Origin: ${item.origin.name}`).appendTo($('#modal-content')).addClass('dash-border')
 // const $lineSpace2 = $('<p>').text('__________________________').appendTo($('#modal-content'))
 const $speciesP = $('<p>').text(`Species: ${item.species}`).appendTo($('#modal-content')).addClass('dash-border')
